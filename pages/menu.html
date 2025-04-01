@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Menu</title>
+		<!-- Includ fontul de pe Google Fonts - Poppins -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- Includ fontul pentru iconite -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+			rel="stylesheet"
+		/>
+		<!-- Inlcud fisierele mele de css -->
+		<link rel="stylesheet" href="../css/main.css" />
+		<link rel="stylesheet" href="../css/menu.css" />
+	</head>
+	<body>
+		<header>
+			<nav>
+				<div class="container">
+					<a href="../index.html" class="logo-link">
+						<img src="../img/itschool-logo.jpg" alt="Bistro" />
+					</a>
+					<div class="menu-icon-container">
+						<!-- Aici imi inserez iconita pentru a deschide meniul pe mobile -->
+						<span class="material-symbols-outlined menu-icon"> Menu </span>
+						<input type="checkbox" />
+						<ul>
+							<li><a href="menu.html">Menu</a></li>
+							<li class="about-us">
+								<a href="about.html">
+									Despre noi
+									<!-- Includ iconita de Arrow down de pe Google Material Icons -->
+									<span class="material-symbols-outlined arrow-down-icon">
+										arrow_drop_down
+									</span>
+								</a>
+								<!-- Aici este submeniul care apare la hover -->
+								<div class="submenu">
+									<a href="../index.html">Home</a>
+									<a href="about.html">Chefs</a>
+								</div>
+							</li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<section class="welcome">
+				<div class="container">
+					<h1>DAILY MENU</h1>
+					<h3 class="description">Founded by a family with deep roots in both Romanian and Italian culinary traditions,
+						Bistro Restaurant has grown from a small, cherished eatery into a beloved dining destination.
+						 </h3>
+						
+				</div>
+			</section>
+
+			<section class="courses">
+				<div class="container">
+					<h2>SPECIAL SELECTION</h2>
+				
+					<div class="courses-container">
+					
+						<div class="course-wrapper">
+							<div class="course">
+								<img src="../img/beaf.jpg" alt="Phyton" class="presentation-image"/>
+								<div class="content">
+									<!-- In interiorul acestui div cu clasa content trebuie sa punem restul continului -->
+								</div>
+							</div>
+						</div>
+						<div class="course-wrapper">
+							<div class="course">
+								<img src="../img/pizza.jpg" alt="Java" class="presentation-image"/>
+								<div class="content">
+									<!-- In interiorul acestui div cu clasa content trebuie sa punem restul continului -->
+								</div>
+							</div>
+						</div>
+						<div class="course-wrapper">
+							<div class="course">
+								<img src="../img/web-dev.jpeg" alt="WebDev" class="presentation-image"/>
+								<div class="content">
+									<!-- In interiorul acestui div cu clasa content trebuie sa punem restul continului -->
+								</div>
+							</div>
+						</div>
+						<div class="course-wrapper">
+							<div class="course">
+								<img src="../img/past.jpg" alt="Phyton" class="presentation-image"/>
+								<div class="content">
+									<!-- In interiorul acestui div cu clasa content trebuie sa punem restul continului -->
+								</div>
+							</div>
+						</div>
+						<div class="course-wrapper">
+							<div class="course">
+								<img src="../img/soup.jpg" alt="Phyton" class="presentation-image"/>
+								<div class="content">
+									<!-- In interiorul acestui div cu clasa content trebuie sa punem restul continului -->
+								</div>
+							</div>
+						</div>
+						<div class="course-wrapper">
+							<div class="course">
+								<img src="../img/lamb.jpg" alt="Phyton" class="presentation-image"/>
+								<div class="content">
+									<!-- In interiorul acestui div cu clasa content trebuie sa punem restul continului -->
+								</div>
+							</div>
+					
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="container">
+				<p>It School Romania 2025. AnaGvn</p>
+			</div>
+		</footer>
+	</body>
+</html>

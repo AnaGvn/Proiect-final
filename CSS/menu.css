@@ -1,0 +1,72 @@
+.welcome {
+    background-color: var(--bg-primary);
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/shape-5.png");
+}
+.main {
+    background-image: url('../img/shape-6.png');
+}
+@media (max-width: 768px) {
+    .welcome h1 {
+        font-size: 32px;
+    }
+}
+.container .description {
+   
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-display: swap;
+    -webkit-font-feature-settings: "liga";
+    color: antiquewhite;
+   
+   
+}
+.courses h2 {
+    padding-top: var(--spacing-large);
+}
+
+.courses h2,
+.courses p.main-paragraph {
+    text-align: center;
+}
+
+.courses h2,
+.courses p.main-paragraph,
+.courses .courses-container {
+    margin-bottom: var(--spacing-large);
+}
+
+.courses .courses-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.courses .courses-container .course-wrapper {
+    width: calc(100% / 4);
+    padding-right: var(--spacing-small);
+    padding-left: var(--spacing-small);
+}
+
+.courses .presentation-image {
+    width: 100%;
+    height: 200px;
+}
+
+.courses .course {
+    padding: var(--spacing-tiny);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: var(--spacing-medium);
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  * {box-sizing:border-box}
+
+  
